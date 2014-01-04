@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Choose from the options to check your environment</string>
+    <string name="app_name">Environment Alert</string>
+    <string name="ambient_label">Ambient Temperature</string>
+	<string name="humidity_label">Start Service</string>
+    <string name="text_placeholder">-</string>
+    <string name="ok">Shutdown</string>
+    <string name="cancel">Dismiss</string>
+    
+</resources>

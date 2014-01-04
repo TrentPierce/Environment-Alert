@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/humidity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/humidity_label"
+        android:layout_marginTop="50dp" />
+     <TextView
+        android:id="@+id/ambient_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="@string/text_placeholder"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" 
+        android:layout_marginTop="50dp"/>
+        />
+
+    <TextView
+        android:id="@+id/humidity_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="@string/text_placeholder"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" 
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Stop Service"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
