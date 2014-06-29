@@ -145,6 +145,8 @@ public class EnvironmentCheckerActivity extends Activity implements OnClickListe
     						// if this button is clicked, close
     						// current activity
     						EnvironmentCheckerActivity.this.finish();
+    						
+    						PowerManager.goToSleep()
     					}
     				  })
     				.setNegativeButton("Dismiss",new DialogInterface.OnClickListener() {
